@@ -1,6 +1,9 @@
 
 import { About } from "./components/about/about";
 import { Header } from "./components/header/header";
+import { Info } from "./components/information/information";
+import { EmailIcon } from "./icons/email-icon";
+import { SocialBtns } from "./social-btns/social-btns";
 
 import "./styles/home.scss";
 
@@ -9,26 +12,13 @@ export default function Home() {
     <main className="container">
       <Header />
       <About />
-
-      <div className="infos">
-        <h3>Experience</h3>
-        <div className="experience-infos">
-          <span>💻Internship - Compass UOL</span>
-        </div>
-        <h3>Education</h3>
-        <div className="educationa-infos">
-          <span>🎓</span>
-          <span>Studying Computer Science - Integrated Regional University</span>
-        </div>
-
-
-
-      </div>
+      <Info />
       <div className="buttons">
-        <div className="social">
-
-        </div>
-        <button>Contact me </button>
+        <SocialBtns />
+        <a className="btn-primary" href="mailto:patrickprestes977@gmail.com">
+          Contact me
+          <EmailIcon />
+        </a>
       </div>
 
 
