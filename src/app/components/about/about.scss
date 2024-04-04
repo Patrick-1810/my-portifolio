@@ -15,6 +15,67 @@
         text-align: center;
     }
 
+    .languagens-time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .about-languagens {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        img {
+            filter: grayscale(100%);
+        }
+
+        .about-unit {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 300px;
+            height: 30px;
+            border-radius: 24px;
+            border: 1px solid var(--text-secudary);
+        }
+
+        .about-measure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 30px;
+            border-radius: 24px;
+            border: 1px solid #2196f3;
+            background: #2196f3;
+            z-index: 999;
+
+            color: var(--text-primary);
+            font-weight: 300;
+            text-align: center;
+            font-size: 12px;
+
+            &.measure-1 {
+                width: 55%;
+            }
+
+            &.measure-2 {
+                width: 100%
+            }
+
+            &.measure-3 {
+                width: 28%;
+            }
+
+        }
+    }
+
+
     @media(min-width: 768px) {
         align-items: flex-start;
 

@@ -9,7 +9,7 @@ export function SocialBtns() {
         <div className="social">
             <a href="https://www.instagram.com/patrick_aprestes/"> <InstaIcon /></a>
             <a href="https://www.linkedin.com/in/patrick-azambuja-prestes-839287279/"> <LinkedinIcon /></a>
-            <a href="https://github.com/Patrick-1810"> <GitHubIcon /></a>
+            <a href="https://github.com/Patrick-1810s"> <GitHubIcon /></a>
         </div >
 
 

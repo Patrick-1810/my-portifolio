@@ -12,7 +12,7 @@ export function Header() {
             <Image
                 src="/imgProfile.jpg"
                 alt="Vercel Logo"
-                width={325}
+                width={315}
                 height={315}
                 priority
             />
