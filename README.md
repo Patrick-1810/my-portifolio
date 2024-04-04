@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[NEXT__BADGE]:https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[PROJECT__URL]:https://github.com/Patrick-1810/my-portifolio
 
-## Getting Started
+<h1 align="center" style="font-weight: bold;">My Portifolio 💻</h1>
 
-First, run the development server:
+![react][REACT__BADGE]
+![next][NEXT__BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
+
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#started">Getting Started</a> • 
+ <a href="#colab">Develop</a> •
+ 
+</p>
+
+
+<p align="center">
+    <img src="./public/imageReadme.png" alt="Image Project" width="550px">
+</p>
+
+<h2 id="started">📌 About</h2>
+
+This is the project from my personal portfolio
+
+[![project][PROJECT__BADGE]][PROJECT__URL]
+
+<h2 id="started">🚀 Getting started</h2>
+
+First steps to run the project on your machine
+
+<h3>Prerequisites</h3>
+
+Install or have installed the following requirements
+
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+
+<h3>Cloning</h3>
+
+How to clone your project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone your-project-url-in-github
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Starting</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+How to start your project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+cd my-portifolio
+npm run dev
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<h2 id="colab">🤝 Developer</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/131163260?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
+        <sub>
+          <b>Patrick Prestes</b>
+        </sub>
+      </a>
+    </td>
+<table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
