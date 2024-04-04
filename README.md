@@ -7,6 +7,7 @@
 
 <h1 align="center" style="font-weight: bold;">My Portifolio 💻</h1>
 
+
 ![react][REACT__BADGE]
 ![next][NEXT__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
